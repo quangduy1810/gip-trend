@@ -19,7 +19,11 @@
             </div>
         </div>
         <div class="flex flex-row max-w-2xl">
-            <span class="font-semibold">Description:</span>
+            <span class="font-semibold">Rating: </span>
+             <span class="truncate">{{selectedGif.rating||'N/A'}}</span>
+        </div>
+        <div class="flex flex-row max-w-2xl">
+            <span class="font-semibold">Description: </span>
              <span class="truncate">{{selectedGif.user?.description||'N/A'}}</span>
         </div>
     </div>
